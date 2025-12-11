@@ -2,7 +2,7 @@ export default [
   {
     path: '/',
     name: 'Home',
-    component: () => import('@/views/Home/index.vue'),
+    component: () => import('@/views/home/index.vue'),
     meta: { title: '首页', requiresAuth: false },
   },
 ];
